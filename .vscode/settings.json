@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        "node_modules{,/**}"
+    ],
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/e230f958-ebe6-448e-9f80-ebd68795a7de/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/dobject-project"
+}

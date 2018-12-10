@@ -1,0 +1,29 @@
+{
+  "name": "d-object-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-watch": "tsc --watch",
+    "server-start": "nodemon built/src/serverStart.js",
+    "start": "npm run server-start",
+    "start-dev": "npm run start-watch | npm run server-start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.15",
+    "node": "^11.3.0",
+    "nodemon": "^1.18.7",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "typescript": "^3.2.2"
+  }
+}
